@@ -8,9 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 django = "^5.0.6"
-#strawberry-graphql-django = "^0.41.1"
+#strawberry-graphql-django = "^0.42.0"
 strawberry-graphql-django = {git = "https://github.com/strawberry-graphql/strawberry-django.git", rev = "refs/pull/540/merge"}
-#strawberry-graphql = "^0.232.2"
 pytest = "^8.2.2"
 pytest-django = "^4.8.0"
 
